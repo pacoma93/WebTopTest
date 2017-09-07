@@ -77,6 +77,7 @@ export class AppComponent {
       address: this.companies[i].forretningsadresse.adresse,
       Country: this.companies[i].forretningsadresse.land,
     };
+    // just speeding up. should use #modalButton
     document.getElementById('modalButton').click();
   }
   // just creating a method showing some of the nice features;
